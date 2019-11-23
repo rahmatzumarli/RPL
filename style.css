@@ -1,0 +1,82 @@
+body {
+    font-family: 'Public Sans', sans-serif;
+}
+
+#navbar-index {
+    background-color: white;
+    color: #48D6D2;
+}
+
+#logo {
+    color: #48D6D2;
+}
+
+#login {
+    color: #48D6D2;
+}
+
+#slider-image {
+    border-radius: 20px;
+    background-color: #48D6D2;
+}
+
+#banner {
+    margin: 0 auto;
+    height: 250px;
+    width: 700;
+}
+
+#quotes {
+    text-align: center;
+}
+
+.howto h1 {
+    text-align: center;
+    color: #48D6D2;
+}
+
+#container-pemesanan {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.row {
+    background-color: #48D6D2;
+    border-style: solid 1px;
+}
+
+/* login.php */
+#container-login {
+    padding: 10%;
+    color: white;
+    border-radius: 5px;
+}
+
+#icon-user {
+    text-align: center;
+    padding: 8%;
+}
+
+#card-login {
+    width: 25rem;
+    height: 40rem;
+    color: white;
+    border-radius: 20px;
+}
+
+/* register.php */
+#card-register.row {
+    width: 25rem;
+    height: 40rem;
+    color: white;
+    border-radius: 20px;
+}
+
+/* welcome.php */
+#navbarWelcome {
+    background-color: #48D6D2;
+}
+
+#welcome-form {
+    background-color: #48D6D2;
+}
