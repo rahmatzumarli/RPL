@@ -13,9 +13,9 @@
   <br>
   <br>
 
-Task Kodingan
-[x] Session
-[x] Database
-[x] Front End
-[] Back End
-[] Finishing
+<h2>Task Kodingan</h2>
+<p>[x] Session</p>
+<p>[x] Database</p>
+<p>[x] Front End</p>
+<p>[] Back End</p>
+<p>[] Finishing</p>
