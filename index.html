@@ -1,58 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/materialize.min.css" />
     <!-- Compiled and minified JavaScript -->
     <script src="js/materialize.min.js"></script>
     <!-- For font -->
-    <link href="https://fonts.googleapis.com/css?family=Public+Sans&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Public+Sans&display=swap"
+      rel="stylesheet"
+    />
     <!-- For icon -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" type="text/css" />
     <title>Index Page</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- navbar -->
     <nav>
+      <!-- <div class="container" id="containerNavbar"> -->
         <div class="nav-wrapper" id="navbar-index">
-            <a href="index.html" class="brand-logo" id="logo">BUSCO</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="login.php" id="login">Login</a></li>
-            </ul>
+          <a href="index.html" class="brand-logo" id="logo">BUSCO</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="login.php" id="login">Login</a></li>
+          </ul>
         </div>
+      <!-- </div> -->
     </nav>
     <!-- end navbar -->
 
     <!-- container -->
     <div class="container">
-        <div class="card-panel" id="slider-image">
-            <div class="image" id="quotes">
-                <!-- <img src="image/slider.jpg" alt="banner" id="banner"> -->
-                <h3>We travel not to escape life but for life not to escape us</h3>
-                <small>Enjoy your travelling with BUSCO</small>
-            </div>
-        </div>
-        <div class="howto">
-            <h1>Cara pemesanan tiket</h1>
-        </div>
-    </div>
-    <!-- end container -->
+      <!-- Image -->
+      <div class="card-panel teal accent-4" id="SlidePanel"></div>
+      <!-- end image -->
 
-    <!-- container pemesanan -->
-    <div class="container" id="container-pemesanan">
-        <div class="row" id="row-pemesanan">
-            <div class="col s12"><h2>Pilih rincian perjalanan</h2></div>
-            <div class="col s6"><h2>Tentukan kursi</h2></div>
-            <div class="col s6"><h2>Lakukan pembayaran</h2></div>
-        </div>
-    </div>
-    <!-- end container pemesanan -->
-</body>
+      <!-- Text  -->
+      <div id="text-index">
+        <h4>Cara Pemesanan Tiket Bus</h4>
+      </div>
+      <!-- end Text -->
 
+      <!-- Columnt -->
+      <div class="row" id="ColumnImage">
+        <div class="col s4 ">
+          <i class="large material-icons">search</i><br>
+          <p>Pilih Rincian Perjalanan</p>
+        </div>
+        <div class="col s4 ">
+                <i class="large material-icons">airline_seat_recline_extra</i><br>
+                <p>Tentukan Kursi</p>
+        </div>
+        <div class="col s4">
+                <i class="large material-icons">attach_money</i><br>
+                <p>Lakukan pembayaran</p>
+        </div>
+      </div>
+      <!-- End Column -->
+    </div>
+  </body>
 </html>

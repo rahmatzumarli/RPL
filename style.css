@@ -1,82 +1,153 @@
 body {
-    font-family: 'Public Sans', sans-serif;
+  font-family: "Public Sans", sans-serif;
+}
+/* index.html
+ */
+#SlidePanel {
+  background-image: url("image/slider.jpg");
+  /* width: 80%; */
+  height: auto;
+  padding: 210px;
+  background-position: center;
+  border-radius: 20px;
 }
 
-#navbar-index {
-    background-color: white;
-    color: #48D6D2;
+#text-index {
+  text-align: center;
+  color: #48d6d2;
+  text-decoration: underline;
+}
+
+#ColumnImage {
+  text-align: center;
+  margin: 5px;
+  border-radius: 10px;
+}
+i {
+  color: white;
+}
+p {
+  color: white;
+}
+/* Index.html end */
+
+nav {
+  background-color: white;
+  color: #48d6d2;
 }
 
 #logo {
-    color: #48D6D2;
+  color: #48d6d2;
 }
 
 #login {
-    color: #48D6D2;
+  color: #48d6d2;
 }
 
 #slider-image {
-    border-radius: 20px;
-    background-color: #48D6D2;
+  border-radius: 20px;
+  background-color: #48d6d2;
 }
 
 #banner {
-    margin: 0 auto;
-    height: 250px;
-    width: 700;
+  margin: 0 auto;
+  height: 250px;
+  width: 700;
 }
 
 #quotes {
-    text-align: center;
+  text-align: center;
 }
 
 .howto h1 {
-    text-align: center;
-    color: #48D6D2;
+  text-align: center;
+  color: #48d6d2;
 }
 
 #container-pemesanan {
-    margin: 0 auto;
-    text-align: center;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .row {
-    background-color: #48D6D2;
-    border-style: solid 1px;
+  background-color: #48d6d2;
+  border-style: solid 1px;
 }
 
 /* login.php */
 #container-login {
-    padding: 10%;
-    color: white;
-    border-radius: 5px;
+  padding: 10%;
+  color: white;
+  border-radius: 5px;
 }
 
 #icon-user {
-    text-align: center;
-    padding: 8%;
+  text-align: center;
+  padding: 8%;
 }
 
 #card-login {
-    width: 25rem;
-    height: 40rem;
-    color: white;
-    border-radius: 20px;
+  width: 25rem;
+  height: 40rem;
+  color: white;
+  border-radius: 20px;
 }
 
 /* register.php */
 #card-register.row {
-    width: 25rem;
-    height: 40rem;
-    color: white;
-    border-radius: 20px;
+  width: 25rem;
+  height: 40rem;
+  color: white;
+  border-radius: 20px;
 }
 
 /* welcome.php */
 #navbarWelcome {
-    background-color: #48D6D2;
+  background-color: #48d6d2;
+  /* padding-top: 10px; */
 }
 
-#welcome-form {
-    background-color: #48D6D2;
+#WelcomeForm {
+  width: 50%;
 }
+
+#CardPanel {
+  background-color: #48d6d2;
+  border-radius: 28px;
+}
+
+label {
+  color: black;
+  font-size: 15px;
+}
+
+#Seat {
+  background-color: #48d6d2;
+  color: grey;
+  border-radius: 10px;
+}
+
+.submit-button a {
+  display: block;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+  border-radius: 20px;
+}
+
+/* cetak.php */
+
+#PanelTiket {
+  background-color: #48d6d2;
+  border-radius: 28px;
+}
+
+#PanelTiket h4 {
+  text-align: center;
+}
+
+/* end cetak.php */
