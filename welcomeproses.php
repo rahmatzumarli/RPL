@@ -12,10 +12,12 @@ $armada = $_POST['armada'];
 $jml_penumpang = $_POST['jml_penumpang'];
 
 $query = mysqli_query($conn, "INSERT INTO tiket 
-        VALUES(NULL,'$nm_depan','$nm_belakang','$asal','$tujuan','$tgl_pergi','$tgl_pulang','$alamat','$armada','$jml_penumpang)");
+        VALUES(NULL,'$nm_depan','$nm_belakang','$asal','$tujuan','$tgl_pergi','$tgl_pulang','$alamat','$armada','$jml_penumpang')");
 
-if ($query){
+if ($query) {
     echo "<script>alert('Data berhasil diinput')</script>";
-}else{
+    // echo "<script>window.location = ''</script>";
+    echo "hasil dapat dilihat disini <a href='tampiltiket.php'>disini</a>";
+} else {
     echo "Data gagal diinput";
 }
