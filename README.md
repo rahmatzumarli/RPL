@@ -3,5 +3,5 @@
 <p>[x] Session</p>
 <p>[x] Database</p>
 <p>[x] Front End</p>
-<p>[] Back End</p>
+<p>[x] Back End</p>
 <p>[] Finishing</p>
