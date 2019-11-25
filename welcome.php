@@ -150,9 +150,9 @@ if (empty($_SESSION['username'])) {
 
       </div>
       <!-- <div class="submit-button"> -->
-        <a class="waves-effect waves-light btn">
-          <input type="submit" value="Pesan Tiket">
-        </a>
+      <a class="waves-effect waves-light btn">
+        <input type="submit" value="Pesan Tiket">
+      </a>
       <!-- </div> -->
       </form>
     </div>

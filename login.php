@@ -35,6 +35,7 @@
         <i class="large material-icons">
           account_circle
         </i>
+        <h5>WELCOME!</h5>
       </div>
       <!-- form -->
       <form class="col s12" action="cek_login.php" method="post">
